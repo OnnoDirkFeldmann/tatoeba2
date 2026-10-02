@@ -84,3 +84,4 @@ config/Migrations/schema-dump-default.lock
 *.retry
 .vagrant/
 ansible/*-git/
+/.vs
