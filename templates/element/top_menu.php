@@ -92,6 +92,11 @@ $menuElements = array(
                 "action" => "translate_sentences"
             ),
             /* @translators: menu item on the top (verb) */
+            __('Import translations') => array(
+                "controller" => "translation_imports",
+                "action" => "index"
+            ),
+            /* @translators: menu item on the top (verb) */
             __('Adopt sentences') => array(
                 "controller" => "activities",
                 "action" => "adopt_sentences",
